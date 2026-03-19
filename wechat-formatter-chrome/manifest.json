@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "微信公众号排版工具",
+  "version": "1.0.0",
+  "description": "快速将 Markdown 或纯文本转换为公众号兼容格式",
+  "permissions": ["activeTab", "clipboardRead", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "host_permissions": ["<all_urls>"]
+}
